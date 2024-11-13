@@ -8,6 +8,7 @@ This project uses **OpenCV**, **Mediapipe**, and **NumPy** to create an interact
 - **Brightness Control**: Use hand gestures to adjust the brightness of the live video feed.
 - **Screenshot Capture**: Capture a screenshot by performing a thumbs-up gesture with the left hand.
 - **Real-Time Interaction**: Live webcam feed with real-time adjustments and accessory placement.
+- **Accessory Customization**: Load and apply custom accessories (PNG images with an alpha channel) from a folder.
 
 ## Requirements
 
@@ -15,6 +16,7 @@ This project uses **OpenCV**, **Mediapipe**, and **NumPy** to create an interact
 - **OpenCV**: For webcam feed and image processing
 - **Mediapipe**: For face and hand landmark detection
 - **NumPy**: For numerical operations and image manipulation
+- **Tkinter**: For the user interface to apply accessories
 
 To install the required dependencies, you can use the following `pip` command:
 
@@ -38,13 +40,13 @@ The webcam will open, and the system will start processing the video feed. The v
 Press 'q' to exit the program.
 
 ## How It Works
-- **Face Landmark Detection:** The program uses Mediapipe’s FaceMesh solution to detect face landmarks, particularly the eyes, to position the virtual accessory.
-- **Hand Landmark Detection:** The program uses Mediapipe’s Hands solution to track the user's hand movements. The right hand controls brightness, and the left hand triggers screenshots with a thumbs-up gesture.
-- **Accessory Placement:** The accessory image is resized based on the distance between the user's eyes and overlaid on the webcam feed. Transparency is respected using the alpha channel of the accessory image.
-- **Brightness Control:** The right hand’s thumb and index finger distance is used to control the brightness of the video feed in real time.
-- **Screenshot Functionality:** When the left hand forms a thumbs-up gesture, a screenshot is taken and saved with a timestamped filename.
+- **Face Landmark Detection**: The program uses Mediapipe’s FaceMesh solution to detect face landmarks, particularly the eyes, to position the virtual accessory.
+- **Hand Landmark Detection**: The program uses Mediapipe’s Hands solution to track the user's hand movements. The right hand controls brightness, and the left hand triggers screenshots with a thumbs-up gesture.
+- **Accessory Placement**: The accessory image is resized based on the distance between the user's eyes and overlaid on the webcam feed. Transparency is respected using the alpha channel of the accessory image.
+- **Brightness Control**:The right hand’s thumb and index finger distance is used to control the brightness of the video feed in real time.
+- **Screenshot Functionality**: When the left hand forms a thumbs-up gesture, a screenshot is taken and saved with a timestamped filename.
 
-## Working:
+## Working Demo:
 ![Screenshot 2024-11-13 145056](https://github.com/user-attachments/assets/a80a3e75-7551-467d-a8a6-7828167a8710)
 
 ## License
