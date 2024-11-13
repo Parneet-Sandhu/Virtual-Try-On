@@ -44,6 +44,9 @@ Press 'q' to exit the program.
 - **Brightness Control:** The right hand’s thumb and index finger distance is used to control the brightness of the video feed in real time.
 - **Screenshot Functionality:** When the left hand forms a thumbs-up gesture, a screenshot is taken and saved with a timestamped filename.
 
+## Working:
+![Screenshot 2024-11-13 145056](https://github.com/user-attachments/assets/a80a3e75-7551-467d-a8a6-7828167a8710)
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
