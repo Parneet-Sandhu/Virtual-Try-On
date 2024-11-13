@@ -47,7 +47,7 @@ Press 'q' to exit the program.
 - **Screenshot Functionality**: When the left hand forms a thumbs-up gesture, a screenshot is taken and saved with a timestamped filename.
 
 ## Working Demo:
-![Screenshot 2024-11-13 145056](https://github.com/user-attachments/assets/a80a3e75-7551-467d-a8a6-7828167a8710)
+![Screenshot 2024-11-13 194320](https://github.com/user-attachments/assets/c2f3637d-5379-4d59-929d-0628ee4411fe)
 
 ## License
 
